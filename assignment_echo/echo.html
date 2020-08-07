@@ -1,0 +1,23 @@
+{% if request_method == "GET" %}
+    {% for key, value in get_value.items %}
+        {% if value %}
+            get {{ key }}: {{ value }}
+        {% endif %}
+    {% endfor %}
+    {% if get_tag %}
+        statement is {{ get_tag }}
+    {% else %}
+        statement is empty
+    {% endif %}
+{% elif request_method == "POST" %}
+    {% for key, value in post_value.items %}
+        {% if value %}
+            post {{ key }}: {{ value }}
+        {% endif %}
+    {% endfor %}
+    {% if get_tag %}
+        statement is {{ get_tag }}
+    {% else %}
+        statement is empty
+    {% endif %}
+{% endif %}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alexey's stackoverflow</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand"><h1>Stackoverflow</h1></a>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  		<div class="navbar-nav mr-auto form-inline nav-item active">
+  			  <form class="form-inline">
+			    <div class="input-group">
+			    	<div class="input-group-prepend">
+			        	<span class="input-group-text" id="basic-addon1">
+			        		<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							  <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+							  <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+							</svg>
+						</span>
+			 		</div>
+			      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			    </div>
+			  </form>	
+		</div>
+		<form class="form-inline my-2 my-lg-0">
+			<a class="mr-sm-3" href="#">login in</a>
+			<a class="mr-sm-5" href="#">register</a>
+		</form>
+	</div>
+</nav>
+<div class="line__item"></div>
+
+<div class="row col-11" id="main-blog">
+	<div class="col-2" id="big-picture">
+		<div class="img-wrap">		
+			<img src="#" class="img-responsive" width="150" height="140">
+		</div>
+		<span id="spin">
+			<input type="number" value="0">
+			<span onclick="this.previousElementSibling.stepUp()"></span>
+			<span onclick="this.previousElementSibling.previousElementSibling.stepDown()"></span>
+		</span>
+		</div>
+	<div class="col-8">
+		<h2>How to build a moo park?</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus nibh, pharetra eget tincidunt eget, tempus eget ex. Nulla facilisi. Integer ac placerat arcu. Pellentesque molestie justo vel nunc ornare dapibus. Curabitur semper elit vitae varius blandit. Morbi in aliquam sapien. Fusce mattis odio eu ultrices gravida. Aenean sollicitudin, quam eu faucibus laoreet, elit eros accumsan felis, nec finibus augue augue at lectus. Vivamus erat purus, placerat sed ligula a, blandit gravida orci. Integer tristique neque turpis, dictum tincidunt arcu aliquam ac.</p>
+		<footer>Tags: <a class="mr-sm-3" href="#">black-jack</a><a href="#">bender</a></footer>
+	</div>
+	<div class="col-2 align-end" id="popular-tags">
+		<h2>Popular Tags</h2>
+			<a class="tag" href="#" id="popular-tag">coursera</a>
+			<a class="tag" href="#" id="popular-tag">python</a>
+			<a class="tag" href="#" id="popular-tag">mysql</a>
+			<a class="tag" href="#" id="popular-tag">django</a>
+	</div>
+</div>
+
+<div class="line__item col-9"></div>
+
+<div class="row col-11" id="main-blog">
+	<div class="col-10 answer">
+		<div class="col-2" id="small-picture">
+		<div class="img-wrap">		
+			<img src="#" class="img-responsive" width="80" height="80" id="small-picture">
+		</div>
+		<span id="spin">
+			<input type="number" value="0">
+			<span onclick="this.previousElementSibling.stepUp()"></span>
+			<span onclick="this.previousElementSibling.previousElementSibling.stepDown()"></span>
+		</span>
+		</div>
+		<div class="col-8">
+			<p class="answer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus nibh, pharetra eget tincidunt eget, tempus eget ex. Nulla facilisi. Integer ac placerat arcu. Pellentesque molestie justo vel nunc ornare dapibus. Curabitur semper elit vitae varius blandit. Morbi in aliquam sapien. Fusce mattis odio eu ultrices gravida. Aenean sollicitudin, quam eu faucibus laoreet, elit eros accumsan felis, nec finibus augue augue at lectus. Vivamus erat purus, placerat sed ligula a, blandit gravida orci. Integer tristique neque turpis, dictum tincidunt arcu aliquam ac.</p>
+		</div>
+	</div>
+	<div class="col-2" id="best-members">
+		<h2>Best Members</h2>
+			<ul>
+				<li><a href="#">Mr. Freeman</a></li>
+				<li><a href="#">Dr. House</a></li>
+				<li><a href="#">Bender</a></li>
+				<li><a href="#">Queen Victoria</a></li>
+			</ul>
+	</div>
+</div>
+
+<div class="row col-11" id="main-blog">
+	<div class="col-10 answer">
+		<div class="col-2" id="small-picture">
+		<div class="img-wrap">		
+			<img src="#" class="img-responsive" width="80" height="80" id="small-picture">
+		</div>
+		<span id="spin">
+			<input type="number" value="0">
+			<span onclick="this.previousElementSibling.stepUp()"></span>
+			<span onclick="this.previousElementSibling.previousElementSibling.stepDown()"></span>
+		</span>
+		</div>
+		<div class="col-8">
+			<p class="answer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus nibh, pharetra eget tincidunt eget, tempus eget ex. Nulla facilisi. Integer ac placerat arcu. Pellentesque molestie justo vel nunc ornare dapibus. Curabitur semper elit vitae varius blandit. Morbi in aliquam sapien. Fusce mattis odio eu ultrices gravida. Aenean sollicitudin, quam eu faucibus laoreet, elit eros accumsan felis, nec finibus augue augue at lectus. Vivamus erat purus, placerat sed ligula a, blandit gravida orci. Integer tristique neque turpis, dictum tincidunt arcu aliquam ac.</p>
+		</div>
+	</div>
+</div>
+
+<div class="line__item col-9"></div>
+
+
+<form>
+  <div class="form-group row col-9 answer answer__page">
+    <input class="form-control"placeholder="Enter your answer here...">
+  </div>
+  <button class="btn btn-primary">Answer</button>
+</form>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
